@@ -1,45 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>markdown语法</title>
-      <link href="/2021/09/18/markdown%E8%AF%AD%E6%B3%95/"/>
-      <url>/2021/09/18/markdown%E8%AF%AD%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a><center>笔记</center></h1><h2 id="0-标题"><a href="#0-标题" class="headerlink" title="0.标题"></a>0.标题</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">……</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure><h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">别问三级到五级标题为什么不写</span><br></pre></td></tr></table></figure><h2 id="1-字体"><a href="#1-字体" class="headerlink" title="1.字体"></a>1.字体</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">*这是斜体*</span><br><span class="line">_这也是斜体_</span><br><span class="line">**这是粗体**</span><br><span class="line">__这也是粗体__</span><br><span class="line">***这是粗斜体***</span><br><span class="line">___这也是粗斜体___</span><br><span class="line">~~这是删除线~~</span><br></pre></td></tr></table></figure><h3 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h3><p><em>这是斜体</em><br><em>这也是斜体</em></p><hr><p><strong>这是粗体文本</strong><br><strong>这也是粗体</strong></p><hr><p><em><strong>这是粗斜体</strong></em><br><em><strong>这也是粗斜体</strong></em></p><hr><p><del>这是删除线</del></p><h2 id="2-列表"><a href="#2-列表" class="headerlink" title="2.列表"></a>2.列表</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">无序列表</span><br><span class="line">*</span><br><span class="line">+</span><br><span class="line">-</span><br><span class="line">有序列表</span><br><span class="line">1.</span><br><span class="line">……</span><br></pre></td></tr></table></figure><h3 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h3><h4 id="无序列表实例"><a href="#无序列表实例" class="headerlink" title="无序列表实例"></a>无序列表实例</h4><ul><li>这是一个无序列表</li></ul><ul><li>这是也一个无序列表</li></ul><ul><li>这是也一个无序列表<h4 id="有序列表实例"><a href="#有序列表实例" class="headerlink" title="有序列表实例"></a>有序列表实例</h4></li></ul><ol><li>这是一个有序列表</li><li>……<h2 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;内容</span><br></pre></td></tr></table></figure><h3 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h3><blockquote><p>引用内容</p></blockquote><h2 id="4-代码高亮"><a href="#4-代码高亮" class="headerlink" title="4.代码高亮"></a>4.代码高亮</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`代码`</span><br></pre></td></tr></table></figure><h3 id="实例-4"><a href="#实例-4" class="headerlink" title="实例"></a>实例</h3><code>#include&lt;stdio.h&gt;</code><h2 id="5-链接"><a href="#5-链接" class="headerlink" title="5.链接"></a>5.链接</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[显示的内容](链接的地址)</span><br></pre></td></tr></table></figure><h3 id="实例-5"><a href="#实例-5" class="headerlink" title="实例"></a>实例</h3><a href="https://caibing01.github.io/">本博客地址</a><h2 id="6-图片"><a href="#6-图片" class="headerlink" title="6.图片"></a>6.图片</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](图片地址)</span><br></pre></td></tr></table></figure><h3 id="实例-以本博客logo为例"><a href="#实例-以本博客logo为例" class="headerlink" title="实例(以本博客logo为例)"></a>实例(以本博客logo为例)</h3><img src="https://urlify.cn/a2mIBr" alt="博客logo"><h2 id="7-表格-来源菜鸟教程"><a href="#7-表格-来源菜鸟教程" class="headerlink" title="7.表格(来源菜鸟教程)"></a>7.表格(来源菜鸟教程)</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">-: 设置内容和标题栏居右对齐。</span><br><span class="line">:- 设置内容和标题栏居左对齐。</span><br><span class="line">:-: 设置内容和标题栏居中对齐</span><br></pre></td></tr></table></figure><h3 id="实例-6"><a href="#实例-6" class="headerlink" title="实例"></a>实例</h3><table><thead><tr><th align="left">左对齐</th><th align="right">右对齐</th><th align="center">居中对齐</th></tr></thead><tbody><tr><td align="left">单元格</td><td align="right">单元格</td><td align="center">单元格</td></tr><tr><td align="left">单元格</td><td align="right">单元格</td><td align="center">单元格</td></tr></tbody></table></li></ol><p><a href="https://www.runoob.com/markdown/md-table.html">菜鸟教程</a></p><h2 id="8-分割线"><a href="#8-分割线" class="headerlink" title="8.分割线"></a>8.分割线</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br><span class="line">___</span><br></pre></td></tr></table></figure><h3 id="实例-7"><a href="#实例-7" class="headerlink" title="实例"></a>实例</h3><hr><hr><hr><h2 id="9-支持html标签"><a href="#9-支持html标签" class="headerlink" title="9.支持html标签"></a>9.支持html标签</h2><h2 id="10-画流程图"><a href="#10-画流程图" class="headerlink" title="10.画流程图"></a>10.画流程图</h2><h2 id="11-公式"><a href="#11-公式" class="headerlink" title="11.公式"></a>11.公式</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$TeX 或 LaTeX 格式的数学公式$</span><br></pre></td></tr></table></figure><h3 id="实例-无"><a href="#实例-无" class="headerlink" title="实例(无)"></a>实例(无)</h3><h2 id="12-转义"><a href="#12-转义" class="headerlink" title="12.转义"></a>12.转义</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">以反斜杆开头</span><br><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure><h4 id="第8-9-10-11-12点详情"><a href="#第8-9-10-11-12点详情" class="headerlink" title="第8,9,10,11,12点详情"></a>第8,9,10,11,12点详情</h4><p><a href="https://www.runoob.com/markdown/md-advance.html">点这里</a></p><h6 id="其中第7-11-12点可以使用工具”Typora”来实现"><a href="#其中第7-11-12点可以使用工具”Typora”来实现" class="headerlink" title="其中第7,11,12点可以使用工具”Typora”来实现"></a>其中第7,11,12点可以使用工具”Typora”来实现</h6><p><a href="https://typora.io/">官网地址</a></p><hr><hr><h1 id="以上内容仅为个人整理的笔记-方便以后查看"><a href="#以上内容仅为个人整理的笔记-方便以后查看" class="headerlink" title="以上内容仅为个人整理的笔记,方便以后查看"></a>以上内容仅为个人整理的笔记,方便以后查看</h1>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/09/09/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>markdown语法</title>
+    <url>/2021/09/18/markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a><center>笔记</center></h1><h2 id="0-标题"><a href="#0-标题" class="headerlink" title="0.标题"></a>0.标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">……</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">别问三级到五级标题为什么不写</span><br></pre></td></tr></table></figure>
+<h2 id="1-字体"><a href="#1-字体" class="headerlink" title="1.字体"></a>1.字体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*这是斜体*</span><br><span class="line">_这也是斜体_</span><br><span class="line">**这是粗体**</span><br><span class="line">__这也是粗体__</span><br><span class="line">***这是粗斜体***</span><br><span class="line">___这也是粗斜体___</span><br><span class="line">~~这是删除线~~</span><br></pre></td></tr></table></figure>
+<h3 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h3><p><em>这是斜体</em><br><em>这也是斜体</em></p>
+<hr>
+<p><strong>这是粗体文本</strong><br><strong>这也是粗体</strong></p>
+<hr>
+<p><em><strong>这是粗斜体</strong></em><br><em><strong>这也是粗斜体</strong></em></p>
+<hr>
+<p><del>这是删除线</del></p>
+<h2 id="2-列表"><a href="#2-列表" class="headerlink" title="2.列表"></a>2.列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">无序列表</span><br><span class="line">*</span><br><span class="line">+</span><br><span class="line">-</span><br><span class="line">有序列表</span><br><span class="line">1.</span><br><span class="line">……</span><br></pre></td></tr></table></figure>
+<h3 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h3><h4 id="无序列表实例"><a href="#无序列表实例" class="headerlink" title="无序列表实例"></a>无序列表实例</h4><ul>
+<li>这是一个无序列表</li>
+</ul>
+<ul>
+<li>这是也一个无序列表</li>
+</ul>
+<ul>
+<li>这是也一个无序列表<h4 id="有序列表实例"><a href="#有序列表实例" class="headerlink" title="有序列表实例"></a>有序列表实例</h4></li>
+</ul>
+<ol>
+<li>这是一个有序列表</li>
+<li>……<h2 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;内容</span><br></pre></td></tr></table></figure>
+<h3 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h3><blockquote>
+<p>引用内容</p>
+</blockquote>
+<h2 id="4-代码高亮"><a href="#4-代码高亮" class="headerlink" title="4.代码高亮"></a>4.代码高亮</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`代码`</span><br></pre></td></tr></table></figure>
+<h3 id="实例-4"><a href="#实例-4" class="headerlink" title="实例"></a>实例</h3><code>#include&lt;stdio.h&gt;</code><h2 id="5-链接"><a href="#5-链接" class="headerlink" title="5.链接"></a>5.链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[显示的内容](链接的地址)</span><br></pre></td></tr></table></figure>
+<h3 id="实例-5"><a href="#实例-5" class="headerlink" title="实例"></a>实例</h3><a href="https://caibing01.github.io/">本博客地址</a><h2 id="6-图片"><a href="#6-图片" class="headerlink" title="6.图片"></a>6.图片</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![图片名](图片地址)</span><br></pre></td></tr></table></figure>
+<h3 id="实例-以本博客logo为例"><a href="#实例-以本博客logo为例" class="headerlink" title="实例(以本博客logo为例)"></a>实例(以本博客logo为例)</h3><img src="https://urlify.cn/a2mIBr" alt="博客logo"><h2 id="7-表格-来源菜鸟教程"><a href="#7-表格-来源菜鸟教程" class="headerlink" title="7.表格(来源菜鸟教程)"></a>7.表格(来源菜鸟教程)</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">-: 设置内容和标题栏居右对齐。</span><br><span class="line">:- 设置内容和标题栏居左对齐。</span><br><span class="line">:-: 设置内容和标题栏居中对齐</span><br></pre></td></tr></table></figure>
+<h3 id="实例-6"><a href="#实例-6" class="headerlink" title="实例"></a>实例</h3><table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+</li>
+</ol>
+<p><a href="https://www.runoob.com/markdown/md-table.html">菜鸟教程</a></p>
+<h2 id="8-分割线"><a href="#8-分割线" class="headerlink" title="8.分割线"></a>8.分割线</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br><span class="line">___</span><br></pre></td></tr></table></figure>
+<h3 id="实例-7"><a href="#实例-7" class="headerlink" title="实例"></a>实例</h3><hr>
+<hr>
+<hr>
+<h2 id="9-支持html标签"><a href="#9-支持html标签" class="headerlink" title="9.支持html标签"></a>9.支持html标签</h2><h2 id="10-画流程图"><a href="#10-画流程图" class="headerlink" title="10.画流程图"></a>10.画流程图</h2><h2 id="11-公式"><a href="#11-公式" class="headerlink" title="11.公式"></a>11.公式</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$TeX 或 LaTeX 格式的数学公式$</span><br></pre></td></tr></table></figure>
+<h3 id="实例-无"><a href="#实例-无" class="headerlink" title="实例(无)"></a>实例(无)</h3><h2 id="12-转义"><a href="#12-转义" class="headerlink" title="12.转义"></a>12.转义</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">以反斜杆开头</span><br><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>
+<h4 id="第8-9-10-11-12点详情"><a href="#第8-9-10-11-12点详情" class="headerlink" title="第8,9,10,11,12点详情"></a>第8,9,10,11,12点详情</h4><p><a href="https://www.runoob.com/markdown/md-advance.html">点这里</a></p>
+<h6 id="其中第7-11-12点可以使用工具”Typora”来实现"><a href="#其中第7-11-12点可以使用工具”Typora”来实现" class="headerlink" title="其中第7,11,12点可以使用工具”Typora”来实现"></a>其中第7,11,12点可以使用工具”Typora”来实现</h6><p><a href="https://typora.io/">官网地址</a></p>
+<hr>
+<hr>
+<h1 id="以上内容仅为个人整理的笔记-方便以后查看"><a href="#以上内容仅为个人整理的笔记-方便以后查看" class="headerlink" title="以上内容仅为个人整理的笔记,方便以后查看"></a>以上内容仅为个人整理的笔记,方便以后查看</h1>]]></content>
       <categories>
-          
-          <category> markdown </category>
-          
+        <category>markdown</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> markdown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2021/09/09/hello-world/"/>
-      <url>/2021/09/09/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构第一章复习</title>
+    <url>/2021/09/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="数据结构第一章复习笔记"><a href="#数据结构第一章复习笔记" class="headerlink" title="数据结构第一章复习笔记"></a><center>数据结构第一章复习笔记</center></h1><blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">程序等于数据结构加算法</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h2 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h2><p>0.数据</p>
+]]></content>
+      <categories>
+        <category>DataStructure</category>
+      </categories>
+      <tags>
+        <tag>DataStructure</tag>
+      </tags>
+  </entry>
 </search>
